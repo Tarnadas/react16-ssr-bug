@@ -1,0 +1,26 @@
+{
+  "name": "react16-ssr-bug",
+  "version": "1.0.0",
+  "description": "",
+  "main": "./build/server.js",
+  "scripts": {
+    "compile": "babel src --out-dir build",
+    "start": "webpack && node ./build/server.js"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.0",
+    "babel-loader": "^7.1.2",
+    "babel-preset-env": "^1.6.0",
+    "babel-preset-react": "^6.24.1",
+    "webpack": "^3.5.5"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.2",
+    "express": "^4.15.4",
+    "react": "^16.0.0-beta.5",
+    "react-dom": "^16.0.0-beta.5"
+  }
+}
